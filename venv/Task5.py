@@ -29,6 +29,11 @@ https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B3%D0%B0%D1%84%D0%B8%D0%B1%D0%BE%D
 # data2.reverse()
 # result = data2 + data1
 # print(result)
+
+
+# улучшенный код
+
+
 n = int(input("Задайте число: "))
 fib = lambda n, x=0, y=1: x if not n else fib(n-1, y, x+y)
 fib1 = [fib(i) for i in range(n+1)]

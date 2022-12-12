@@ -11,6 +11,12 @@
 #     print(f'Сумма элементов на нечетной позиции равна {SumOfElements}')
 # numbers = list(map(int, input("Введите числа через пробел: ").split()))
 # SumOfIndex(numbers)
+
+
+# улучшенный код
+
+
+
 numbers = list(map(int, input("Введите числа через пробел: ").split()))
 odd_numbers_position = [numbers[elements] for elements in range(len(numbers)) if elements % 2 != 0]
 print(f'Сумма элементов на нечетной позиции равна {sum(odd_numbers_position)}')

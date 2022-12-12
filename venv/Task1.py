@@ -11,6 +11,11 @@ print(result)
 print()
 print(f'Сумма {n} чисел последовательности равна {sum}')
 '''
+
+
+# улучшенный код
+
+
 n = int(input('Введите число N: '))
 result = [(1 + 1 / i) ** i for i in range(1, n + 1)]
 print(result)
